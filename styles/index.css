@@ -3,26 +3,74 @@ body {
 
 }
 
-
-.texto-com-fundo {
-    margin-top: 100px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.402); /* Cor de fundo semi-transparente */
-    backdrop-filter: blur(50px); /* Aplica o desfoque ao fundo */
+* {
+    margin: 0;
+    padding: 0;
 }
+
 
 body, html {
     margin: 0;
     padding: 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    z-index: 4;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+nav > ul {
+    width: 80vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+
+}
+
+nav > ul > li {
+    padding: 10px 50px 0px 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transition: color 2s;
+}
+
+nav > ul > li > a {
+    color: aliceblue;
+}
+
+nav > ul > li > a:hover {
+    color: rgba(240, 248, 255, 0.5);
+}
+
+
+
+.texto-principal {
+    font-size: 3.5em;
+    position: relative; 
+    top: 120px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 7; 
+    height: 0px; 
+    width: 800px; 
+    text-align: center;
+}
+
 .principal {
+    margin-top: -90px;
+    z-index: 3;
      height: 90vh;
      overflow: hidden; /* Impede que a imagem de fundo ultrapasse a tela */
 
- }
+}
 
 .kenburns-top {
     width: 100%;
