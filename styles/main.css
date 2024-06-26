@@ -1,0 +1,54 @@
+main .secoes {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main .secoes .quem_somos {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+main .secoes .quem_somos h2 {
+  background-color: white;
+  margin-bottom: -15px;
+  font-size: 1.6em;
+  text-align: center;
+  z-index: 2;
+  width: 200px;
+  margin-left: 20px;
+}
+main .secoes .quem_somos .secoes-quem-somos {
+  border: 0.5px solid rgba(0, 0, 0, 0.453);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+  z-index: 1;
+}
+main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto {
+  margin-left: 20px;
+}
+main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto h3 {
+  font-size: 1.6em;
+}
+main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto p {
+  font-size: 0.8em;
+}
+main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto ul {
+  list-style: none;
+  padding-left: 0;
+}
+main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto ul li {
+  margin: 10px 0;
+}
+main .secoes .quem_somos .secoes-quem-somos .foto_quemsomos {
+  height: 450px;
+  width: auto;
+}
+main .contato {
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */

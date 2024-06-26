@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Animação Ken Burns Top</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.2.0/css/lightgallery-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/fotos.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.0/lightgallery.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.0/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.0/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="principal">
+        <div class="kenburns-top">
+            <h1 class="tracking-in-expand texto-com-fundo">chacara renascer</h1>
+        </div>
+    </div>
+
+    <main>
+        <div class="secoes">
+            <section class="quem_somos">
+                <h2 class="subtitulo">Quem Somos?</h2>
+                <div class="secoes-quem-somos">
+                    <div>
+                        <img src="fotos/Captura de Tela 2024-06-24 às 15.34.35.png" alt="Imagem-teste"
+                            class="foto_quemsomos">
+                    </div>
+                    <div class="secao-quemsomos-texto">
+                        <h3>Pousada Renascer</h3>
+                        <p>Em nossa pousada pesamos pelo bem-estar dos nossos clientes</p>
+                        <ul>
+                            <li>Estacionamento privativo gratuito</li>
+                            <li>Wifi</li>
+                            <li>Café da manhã</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="secoes contato">
+            <section class="quem_somos">
+                <h2 class="subtitulo" style="width: 270px;">Entrer em contato</h2>
+                <div class="secoes-quem-somos">
+                    <div>
+                        <img src="fotos/IMG_3686.HEIC" alt="Imagem-teste" class="foto_quemsomos">
+                    </div>
+                    <div class="secao-quemsomos-texto">
+                        <h3>Pousada Renascer</h3>
+                        <p>redes socias</p>
+                        <ul>
+                            <li><a href="#">instragram</a></li>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">whats</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="container">
+            <h2 class="subtitulo-foto">Quem Somos?</h2>
+            <div class="row mx-0" id="bootstrap-image-gallery">
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item" data-lg-size="1600-1067" data-src="fotos/images-2.jpeg">
+                        <img src="fotos/images-2.jpeg" class="shadow-1-strong mb-3" alt="Boat on Calm Water" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item texte" data-lg-size="1600-2400" data-src="fotos/images-3.jpeg">
+                        <img src="fotos/images-3.jpeg" class="shadow-1-strong mb-3" alt="Wintry Mountain Landscape" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item" data-lg-size="1600-1065" data-src="fotos/images.jpeg">
+                        <img src="fotos/images.jpeg" class="shadow-1-strong mb-3" alt="Boat on Calm Water" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item" data-lg-size="1600-2398" data-src="fotos/images-4.jpeg">
+                        <img src="fotos/images-4.jpeg" class="shadow-1-strong mb-3" alt="Mountains in the Clouds" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item" data-lg-size="1600-1065" data-src="fotos/images.jpeg">
+                        <img src="fotos/images.jpeg" class="shadow-1-strong mb-3" alt="Boat on Calm Water" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item">
+                    <a class="lg-item" data-lg-size="1600-2398" data-src="fotos/images-4.jpeg">
+                        <img src="fotos/images-4.jpeg" class="shadow-1-strong mb-3" alt="Mountains in the Clouds" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>site desenvolvidor por <a href="#">davi alves de lima</a></p>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.1/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.1/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+    <script>
+        const container = document.querySelector('#bootstrap-image-gallery');
+        window.lightGallery(container, {
+            selector: '.lg-item',
+            plugins: [lgZoom, lgThumbnail],
+            download: false,
+            actualSize: true,
+            zoom: true,
+            fullScreen: true,
+            thumbnail: true,
+            autoplay: true,
+            autoplayControls: true,
+            zoomFromOrigin: true,
+            mode: 'lg-fade'
+        });
+    </script>
+</body>
+</html>

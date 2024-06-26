@@ -1,0 +1,37 @@
+.container {
+    margin-top: 20vh;
+    padding: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.gallery-item {
+    padding: 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+
+.lg-item {
+    display: block;
+}
+
+
+.lg-item:hover img {
+    cursor: pointer; /* Change the cursor to pointer */
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Add a shadow effect */
+}
+
+.subtitulo-foto {
+    padding: 0px 20px;
+    background-color: white;
+    margin-top: -70px;
+    position: absolute;
+}
