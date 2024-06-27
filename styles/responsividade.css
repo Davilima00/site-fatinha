@@ -36,24 +36,24 @@
     }
 
     .principal {
-        margin-top: -25vh;
+        margin-top: -90px;
     }
 
     .texto-principal {
         font-size: 2em;
-        margin-top: 80px; /* Ajusta a margem superior para alinhar com a barra de navegação */
+        top: 70px; /* Ajusta a margem superior para alinhar com a barra de navegação */
         text-align: center;
     }
 
     .quem_somos {
-        margin-left: 0;
-        width: 100%;
+        margin-left: -80px;
         display: flex;
         justify-content: center;
     }
 
-    .secoes-quem-somos {
-        width: 100%;
+    .secoes-quem-somos { 
+
+        width: 80vw;
         padding: 10px;
         box-sizing: border-box;
     }
