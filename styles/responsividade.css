@@ -1,48 +1,64 @@
-/*@media (max-width: 1024px) */
-    
-/*@media (max-width: 768px) */
-
 @media (max-width: 480px) {
 
     html, body {
         overflow-x: hidden;
     }
 
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        z-index: 4;
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
     nav > ul {
-        width: 100vw;
+        display: flex;
+        width: 100%;
         justify-content: center; /* Centraliza os itens na barra de navegação */
+        padding: 0;
+        margin: 0;
+        list-style: none;
     }
 
     nav > ul > li {
-        padding: 3px; 
+        padding: 3px;
+        display: flex;
+        align-items: center;
     }
 
     nav > ul > li > a {
         font-size: 13px;
-        width: auto; /* Ajusta a largura automaticamente conforme o conteúdo */
         text-align: center; /* Centraliza o texto na barra de navegação */
+    }
+
+    .principal {
+        margin-top: -25vh;
     }
 
     .texto-principal {
         font-size: 2em;
         margin-top: 80px; /* Ajusta a margem superior para alinhar com a barra de navegação */
+        text-align: center;
     }
 
     .quem_somos {
-        margin-left: -75px;
-        
-
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .secoes-quem-somos {
-        width: 300px;
-
-    
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
     }
-
 
     .foto_quemsomos {
         display: none; /* Oculta a imagem com a classe .foto_quemsomos */
     }
 }
-
