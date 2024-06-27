@@ -8,12 +8,6 @@ body {
     padding: 0;
 }
 
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
 .nav {
     display: flex;
     justify-content: center;
@@ -43,6 +37,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
+    text-decoration: none;
     color: aliceblue;
 }
 
@@ -82,8 +77,8 @@ nav > ul > li > a:hover {
     animation: kenburns-top 7s ease-out both ;
     animation-iteration-count: infinite;
     
-    z-index: 1; /* Z-index ajustado para permitir que o conteúdo fique sobre a imagem */
-    position: relative; /* Adicionado para controlar a posição dos elementos filhos */
+    z-index: 1; 
+    position: relative; 
 }
 
 @-webkit-keyframes kenburns-top {

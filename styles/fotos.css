@@ -1,3 +1,15 @@
+#foto-conversa {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
+#foto-galeria {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
 .container {
     margin-top: 20vh;
     padding: 20px;
