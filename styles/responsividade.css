@@ -33,6 +33,7 @@
         }
 
         .secoes-quem-somos {
+            border: none;
             flex-direction: column;
             padding: 10px;
             padding-top: 40px;
@@ -58,15 +59,34 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Para telas menores que 480px */
 @media (max-width: 480px) {
+
+    nav > ul {
+        width: 100vw;
+    
+    }
+
     nav > ul > li {
-        padding: 10px;
+        padding: 3px;
         display: flex;
     }
 
     nav > ul > li > a {
-        width: 100px;
+        font-size: 13px;
+        width: 60px;
     }
 
     .texto-principal {
@@ -81,11 +101,19 @@
 
         h2 {
             font-size: 1em;
-            width: 130px;
-            margin-left: 20px; /* Alinhamento do texto */
+            width: 100vw;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        .subtitulo {
+            font-size: 1em;
+            width: 100vw;
+            text-align: left;
         }
 
         .secoes-quem-somos {
+            border: none;
             padding: 5px;
             padding-top: 30px;
             flex-direction: column;

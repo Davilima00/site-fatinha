@@ -5,7 +5,7 @@
 
 footer {
     margin-top: 5vh;
-    background-color: aqua;
+    background-color: #333;
     height: 3vh;
     display: flex;
     align-items: center;
@@ -15,7 +15,8 @@ footer {
 
 
 footer > p {
-    background-color: aqua;
+    color: white;
+    background-color: #333;
     width: 100%;
     text-align: center;
 
