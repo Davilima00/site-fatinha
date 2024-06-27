@@ -10,6 +10,28 @@
     margin-right: 5px;
 }
 
+#foto-facebook {
+    height: 20px;
+    width: auto;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+
+#foto-insta {
+    height: 20px;
+    width: auto;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+
+#foto-whatsapp {
+    height: 20px;
+    width: auto;
+    margin-right: 2px;
+    margin-bottom: 1px;
+
+}
+
 .container {
     margin-top: 20vh;
     padding: 20px;

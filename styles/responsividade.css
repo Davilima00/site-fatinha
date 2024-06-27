@@ -1,0 +1,108 @@
+@media (max-width: 1024px) {
+    main .secoes .quem_somos {
+        width: 80vw;
+
+        h2 {
+            font-size: 1.4em;
+            width: 180px;
+        }
+
+        .secoes-quem-somos .secao-quemsomos-texto h3 {
+            font-size: 1.4em;
+        }
+
+        .secoes-quem-somos .secao-quemsomos-texto p {
+            font-size: 0.75em;
+        }
+
+        .secoes-quem-somos .foto_quemsomos {
+            height: 350px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    main .secoes .quem_somos {
+        width: 90vw;
+
+        h2 {
+            font-size: 1.2em;
+            width: 160px;
+        }
+
+        .secoes-quem-somos {
+            flex-direction: column;
+            padding: 10px;
+            padding-top: 40px;
+
+            .secao-quemsomos-texto {
+                margin-left: 0;
+                text-align: center;
+
+                h3 {
+                    font-size: 1.2em;
+                }
+
+                p {
+                    font-size: 0.7em;
+                }
+            }
+
+            .foto_quemsomos {
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    nav > ul > li {
+        padding: 10px;
+        display: flex;
+    }
+
+    nav > ul > li > a {
+        width: 100px;
+    }
+
+    .texto-principal {
+        font-size: 2em;
+        top: 80px; 
+
+
+    }
+
+    main .secoes .quem_somos {
+        padding: 20px;
+        width: 100vw;
+        margin-top: 50px;
+
+        h2 {
+            font-size: 1em;
+            width: 130px;
+            margin-left: 20px;
+        }
+
+        .secoes-quem-somos {
+            padding: 5px;
+            padding-top: 30px;
+
+            .secao-quemsomos-texto {
+                h3 {
+                    font-size: 1em;
+                }
+
+                p {
+                    font-size: 0.6em;
+                }
+            }
+
+            .foto_quemsomos {
+                height: 250px;
+            }
+        }
+    }
+}
+
+
