@@ -14,9 +14,7 @@
     }
 
     nav > ul > li {
-        padding: 3px;
-        display: flex;
-        justify-content: center; /* Centraliza os itens na barra de navegação */
+        padding: 3px; 
     }
 
     nav > ul > li > a {
