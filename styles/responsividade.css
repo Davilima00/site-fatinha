@@ -1,78 +1,12 @@
-/* Para telas menores que 1024px */
-@media (max-width: 1024px) {
-    main .secoes .quem_somos {
-        width: 80vw;
+/*@media (max-width: 1024px) */
+    
+/*@media (max-width: 768px) */
 
-        h2 {
-            font-size: 1.4em;
-            width: 180px;
-        }
-
-        .secoes-quem-somos .secao-quemsomos-texto h3 {
-            font-size: 1.4em;
-        }
-
-        .secoes-quem-somos .secao-quemsomos-texto p {
-            font-size: 0.75em;
-        }
-
-        .secoes-quem-somos .foto_quemsomos {
-            height: 350px;
-        }
-    }
-}
-
-/* Para telas menores que 768px */
-@media (max-width: 768px) {
-    main .secoes .quem_somos {
-        width: 90vw;
-
-        h2 {
-            font-size: 1.2em;
-            width: 160px;
-        }
-
-        .secoes-quem-somos {
-            border: none;
-            flex-direction: column;
-            padding: 10px;
-            padding-top: 40px;
-
-            .secao-quemsomos-texto {
-                margin-left: 0;
-                text-align: center;
-
-                h3 {
-                    font-size: 1.2em;
-                }
-
-                p {
-                    font-size: 0.7em;
-                }
-            }
-
-            .foto_quemsomos {
-                height: 300px;
-                width: 100%;
-            }
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Para telas menores que 480px */
 @media (max-width: 480px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
 
     nav > ul {
         width: 100vw;
@@ -96,40 +30,21 @@
         margin-top: 80px; /* Ajusta a margem superior para alinhar com a barra de navegação */
     }
 
-    main .secoes .quem_somos {
-        padding: 20px;
-        width: 100vw;
-        margin-top: 50px;
+    .quem_somos {
+        margin-left: -75px;
+        
+
     }
 
-    main .secoes .quem_somos h2 {
-        font-size: 1em;
-        text-align: left;
-        margin-left: 20px;
+    .secoes-quem-somos {
+        width: 300px;
+
+    
     }
 
-    main .secoes .quem_somos .subtitulo {
-        font-size: 1em;
-        text-align: left;
-    }
 
-    main .secoes .quem_somos .secoes-quem-somos {
-        border: none;
-        padding: 5px;
-        padding-top: 30px;
-    }
-
-    main .secoes .quem_somos .secoes-quem-somos .foto_quemsomos {
-        height: auto;
-        width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura disponível */
-    }
-
-    main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto h3 {
-        font-size: 1em;
-    }
-
-    main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto p {
-        font-size: 0.6em;
+    .foto_quemsomos {
+        display: none; /* Oculta a imagem com a classe .foto_quemsomos */
     }
 }
 
