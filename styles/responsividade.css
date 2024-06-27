@@ -76,66 +76,60 @@
 
     nav > ul {
         width: 100vw;
-    
+        justify-content: center; /* Centraliza os itens na barra de navegação */
     }
 
     nav > ul > li {
         padding: 3px;
         display: flex;
+        justify-content: center; /* Centraliza os itens na barra de navegação */
     }
 
     nav > ul > li > a {
         font-size: 13px;
-        width: 60px;
+        width: auto; /* Ajusta a largura automaticamente conforme o conteúdo */
+        text-align: center; /* Centraliza o texto na barra de navegação */
     }
 
     .texto-principal {
         font-size: 2em;
-        top: 80px; 
+        margin-top: 80px; /* Ajusta a margem superior para alinhar com a barra de navegação */
     }
 
     main .secoes .quem_somos {
         padding: 20px;
         width: 100vw;
         margin-top: 50px;
+    }
 
-        h2 {
-            font-size: 1em;
-            width: 100vw;
-            text-align: left;
-            margin-left: 20px;
-        }
+    main .secoes .quem_somos h2 {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
+    }
 
-        .subtitulo {
-            font-size: 1em;
-            width: 100vw;
-            text-align: left;
-        }
+    main .secoes .quem_somos .subtitulo {
+        font-size: 1em;
+        text-align: left;
+    }
 
-        .secoes-quem-somos {
-            border: none;
-            padding: 5px;
-            padding-top: 30px;
+    main .secoes .quem_somos .secoes-quem-somos {
+        border: none;
+        padding: 5px;
+        padding-top: 30px;
+    }
 
-            .foto_quemsomos {
-                height: auto;
-                width: 50%;
-            }
+    main .secoes .quem_somos .secoes-quem-somos .foto_quemsomos {
+        height: auto;
+        width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura disponível */
+    }
 
-            .secao-quemsomos-texto {
-                h3 {
-                    font-size: 1em;
-                }
+    main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto h3 {
+        font-size: 1em;
+    }
 
-                p {
-                    font-size: 0.6em;
-                }
-            }
-
-            .foto_quemsomos {
-                height: 250px;
-            }
-        }
+    main .secoes .quem_somos .secoes-quem-somos .secao-quemsomos-texto p {
+        font-size: 0.6em;
     }
 }
 
