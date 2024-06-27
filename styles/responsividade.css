@@ -88,6 +88,7 @@
         .secoes-quem-somos {
             padding: 5px;
             padding-top: 30px;
+            flex-direction: column;
 
             .secao-quemsomos-texto {
                 h3 {
