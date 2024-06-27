@@ -98,7 +98,6 @@
         padding: 20px;
         width: 100vw;
         margin-top: 50px;
-        flex-direction: column;
 
         h2 {
             font-size: 1em;
@@ -117,10 +116,13 @@
             border: none;
             padding: 5px;
             padding-top: 30px;
-            flex-direction: column;
+
+            .foto_quemsomos {
+                height: auto;
+                width: 50%;
+            }
 
             .secao-quemsomos-texto {
-                flex-direction: column;
                 h3 {
                     font-size: 1em;
                 }
