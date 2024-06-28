@@ -45,6 +45,36 @@
 
 }
 
+#foto-galeria-passeios {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+
+}
+
+#foto-location-passeios {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+#foto-home-passeios {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+#foto-quartos-passeio {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+
 .container {
     margin-top: 20vh;
     padding: 20px;

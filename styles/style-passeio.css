@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tudo {
+    overflow: hidden;
+}
+
+.apresentacao {
+    height: 70vh;
+    width: 100vw;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav > h1 {
+    color: rgba(0, 0, 0, 0.71);
+    font-size: 2em;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+}
+
+nav > ul > li {
+    margin: 0px 40px;
+}
+
+nav > ul > li > a {
+    color: rgba(0, 0, 0, 0.804);text-decoration: none;
+
+}
+
+nav > ul > li > a:hover {
+    color: rgba(0, 0, 0, 0.502);
+    text-decoration: underline;
+}
+
+.bloco-principal {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-foto {
+    height: 70vh;
+    width: 50vw;
+    background-image: url("../fotos/foto-dico-passeios.png");
+    background-size: cover; 
+    background-position: center;
+    border: 1px solid white; 
+    border-radius: 10px;
+}
+
+.bloco-texto {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-texto > h2 {
+    color: rgba(0, 0, 0, 0.813);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-destaque {
+    font-size: 6em;
+}
+
+.texto-pergunta {
+    margin-bottom: -30px;
+}
+
+.bloco-texto > h3 {
+    color: rgba(0, 0, 0, 0.813);
+    font-size: 1.5em;
+    margin-top: -20px;
+}
+
+.bloco-texto > p {
+    color: rgba(0, 0, 0);
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+main {
+    border-radius: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.passeio {
+    width: 80vw;
+    height: 400px;
+    margin-top: 100px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 15px;
+}
+
+.parte-foto {
+    width: 40vw;
+    background-image: url("fotos/Captura%20de%20Tela%202024-06-27%20às%2020.22.39.png");
+    background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+.parte-texto {
+    width: 40vw;
+    
+
+}
+
