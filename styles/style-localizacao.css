@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tudo {
+    overflow: hidden;
+}
+
+.apresentacao {
+    height: 70vh;
+    width: 100vw;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav > h1 {
+    color: rgba(0, 0, 0, 0.71);
+    font-size: 2em;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+}
+
+nav > ul > li {
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    color: rgba(0, 0, 0, 0.804);text-decoration: none;
+
+}
+
+nav > ul > li > a:hover {
+    color: rgba(0, 0, 0, 0.502);
+    text-decoration: underline;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+

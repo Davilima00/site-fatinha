@@ -26,7 +26,21 @@
     padding: 20px;
     width: 50%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    z-index: 1;
+    position: relative;
+}
+
+.texto-flutuante-preco {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f9fa;
+    flex-direction: column;
 }
+.btn {
+    width: 200px;
+}
+
