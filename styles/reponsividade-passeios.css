@@ -24,6 +24,7 @@
     }
 
     .bloco-principal {
+        justify-content: center;
         flex-direction: column;
     }
 
