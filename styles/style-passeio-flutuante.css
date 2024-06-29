@@ -1,0 +1,32 @@
+
+
+
+.flutuantes {
+    padding: 50px;
+}
+
+.bloco-flutuante1,
+.bloco-flutuante2 {
+    margin: 50px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    width: 70vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.foto-flutuante1,
+.foto-flutuante2 {
+    height: 100%;
+    width: 50%;
+}
+
+.texto-flutuante1,
+.texto-flutuante2 {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
