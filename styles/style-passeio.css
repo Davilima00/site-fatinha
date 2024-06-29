@@ -99,43 +99,43 @@ nav > ul > li > a:hover {
     margin-top: 20px;
 }
 
-
-
-
-
-
 main {
     border-radius: 0.5px solid black;
     display: flex;
     align-items: center;
     
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 180px;
     width: 100vw;
 }
 
-.passeio {
-    width: 80vw;
-    height: 400px;
-    margin-top: 100px;
-    background-color: aqua;
+.linha {
     display: flex;
-    border-radius: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.parte-foto {
-    width: 40vw;
-    background-image: url("fotos/Captura%20de%20Tela%202024-06-27%20às%2020.22.39.png");
-    background-size: cover; /* Faz com que a imagem cubra todo o elemento */
-    background-position: center; /* Centraliza a imagem no elemento */
-    background-repeat: no-repeat;
-    border-radius: 15px 0px 0px 15px;
-
+.card {
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.parte-texto {
-    width: 40vw;
-    
-
+.card img {
+    border-radius: 10px 10px 0 0;
 }
 
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+}

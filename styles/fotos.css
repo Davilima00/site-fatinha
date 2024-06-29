@@ -74,6 +74,14 @@
 
 }
 
+#foto-kaiake {
+    background-image: url("../fotos/foto-kaiake-passeios.png");
+    background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat;
+
+}
+
 
 .container {
     margin-top: 20vh;
