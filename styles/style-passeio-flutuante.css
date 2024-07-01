@@ -40,7 +40,30 @@
     align-items: center;
     flex-direction: column;
 }
+
+.beneficios {
+    width: 100%;
+    text-align: left;
+}
+
+
+
 .btn {
     width: 200px;
 }
 
+.aviso-flutuante {
+    width: 60vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.049);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.aviso-flutuante > h2 {
+
+    text-align: center;
+}

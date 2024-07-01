@@ -12,6 +12,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 50px;
     }
 
     nav > h1 {
@@ -73,9 +74,14 @@
         margin-top: 350px;
     }
 
+    .flutuantes {
+        padding: 1px;
+    }
+
     .bloco-flutuante1, 
     .bloco-flutuante2 {
         flex-direction: column;
+        width: 95vw;
 
     }
 
@@ -89,5 +95,15 @@
     .texto-flutuante2 {
         width: 100%;
     }
+
+    .aviso-flutuante {
+        width: 90vw;
+    
+    }
+
+    .aviso-flutuante > ul > li {
+        margin: 10px 0px;
+    }
+    
 }
 
