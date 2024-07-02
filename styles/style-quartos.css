@@ -11,7 +11,12 @@
 .apresentacao {
     height: 70vh;
     width: 100vw;
+    background-image: url(../fotos/bloco-quartos3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 nav {
     height: 10vh;
@@ -77,5 +82,17 @@ section {
     border-radius: 10px;
     height: 600px;
     width: auto;
+}
+
+.aviso {
+    width: 60vw;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: rgba(0, 0, 0, 0.049);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.aviso > h2 {
+    text-align: center;
 }
 
