@@ -8,16 +8,6 @@
     overflow: hidden;
 }
 
-.apresentacao {
-    height: 70vh;
-    width: 100vw;
-    background-image: url(../fotos/bloco-quartos3.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
 nav {
     height: 10vh;
     display: flex;
@@ -56,6 +46,7 @@ nav > ul > li > a:hover {
 }
 
 main {
+    margin-top: 20vh;
     width: 100vw;
     display: flex;
     justify-content: center;
